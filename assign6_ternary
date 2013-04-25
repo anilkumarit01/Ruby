@@ -1,0 +1,4 @@
+a=10
+
+x=a>10 ?  "a is greater than 10" : "a is less than 10"
+puts x
