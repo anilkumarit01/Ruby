@@ -1,0 +1,17 @@
+$var=10
+class Variables
+@@classvariable=4
+
+  def Varmethod
+
+    x=@@classvariable+$var
+  puts "instance variable value= "
+  puts x
+  puts "global value=#$var"
+  puts "classvariables= #@@classvariable"
+  end
+
+end
+
+var=Variables.new
+var.Varmethod
