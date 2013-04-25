@@ -1,0 +1,19 @@
+class Variables
+@@classvariable=4
+  def Varmethod1
+    @var1=6
+   puts @var1
+  end
+  def Varmethod2
+    @var2=4+@@classvariable
+    x=@var2
+  puts x
+  puts @var1
+  puts @@classvariable
+  end
+
+end
+
+var=Variables.new
+var.Varmethod1
+var.Varmethod2
