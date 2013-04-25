@@ -1,0 +1,9 @@
+class Undef
+   def method
+   puts "in the method"
+   end
+ undef method
+end
+
+u=Undef.new
+u.method
