@@ -1,0 +1,21 @@
+class Test
+
+   def initialize(id, name, age)
+      @id=id
+      @name=name
+      @age=age
+   end
+   def id
+     @id
+   end
+   def name
+     @name
+   end
+   def age
+     @age
+   end
+end
+test1=Test.new("1", "Anil",22)
+puts test1.id
+puts test1.name
+puts test1.age
