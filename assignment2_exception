@@ -1,0 +1,16 @@
+begin
+ puts "you are in begin block"
+  file=open("text.rb")
+ if file
+  puts "file opened sucessfully"
+  end
+ rescue
+ puts "you are in resuce block"
+ fname="text1"
+ ensure
+ if file
+ file.close
+ puts "file closed"
+ end
+ puts "you are in ensure block"
+end
