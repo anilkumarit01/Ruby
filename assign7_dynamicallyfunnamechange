@@ -1,0 +1,9 @@
+class FunNameChange
+   def test
+   puts "this is in test method"
+   end
+  alias :test1 :test
+end
+
+f=FunNameChange.new
+f.test1
