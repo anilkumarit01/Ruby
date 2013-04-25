@@ -1,0 +1,16 @@
+class Parent
+  def ChildMethod
+   puts "method in parent"
+  end
+end
+
+class Child < Parent
+  def ChildMethod
+  puts "method in child"
+  super
+  end
+end
+
+c=Child.new
+
+c.ChildMethod
