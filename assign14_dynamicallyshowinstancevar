@@ -1,0 +1,9 @@
+class Test
+   def initialize(n)
+   @n=n
+   end
+end
+
+T=Test.new(19)
+
+puts T.instance_variable_get(:@n)
