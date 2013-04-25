@@ -1,0 +1,18 @@
+class Testcase
+
+ def initialize(n)
+
+   if  n==1
+    puts "one"
+   elsif n==2
+    puts "two"
+    elsif n==3
+    puts "three"
+    elsif n==4
+    puts "four"
+   else
+    puts "beyond the range"
+   end
+ end
+end
+test=Testcase.new 3
