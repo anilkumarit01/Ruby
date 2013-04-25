@@ -1,0 +1,11 @@
+a = 0
+begin
+  1/a
+  puts a
+rescue ZeroDivisionError => e
+  puts e.message
+  puts "assign value =1"
+  a = 1
+  retry
+
+end
